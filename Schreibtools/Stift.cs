@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Schreibtools
 {
-    class Stift
+    abstract class Stift
     {
         //Prop
         public int Strichstärke { get; set; }
@@ -27,7 +27,7 @@ namespace Schreibtools
             Farbe = farbe;
         }
 
-        public abstract string void SchreibeText(string text);
+        public abstract string SchreibeText(string text);
         
     }
 }
