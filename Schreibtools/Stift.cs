@@ -18,7 +18,7 @@ namespace Schreibtools
         {
             Strichstärke = strichstärke;
             Typ = "unbekannt";
-            Farbe = ConsoleColor.Black;
+            Farbe = ConsoleColor.White;
                
         }
 

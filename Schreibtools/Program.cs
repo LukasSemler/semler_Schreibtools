@@ -22,6 +22,7 @@ namespace Schreibtools
 
             foreach (var item in liste)
             {
+                Console.ForegroundColor = item.Farbe;
                 Console.WriteLine(item.SchreibeText("Hallo")); 
             }
 
